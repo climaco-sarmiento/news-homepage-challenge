@@ -1,0 +1,165 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #ecf2f8;
+  font-family: 'Inter', sans-serif;
+  }
+
+#complete-page-container {
+  padding: 8% 5%;
+  border: 5px solid;
+}
+
+#complete-page-container p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#header {
+  display: flex;
+  margin-bottom: 30px;
+  border: 5px solid;
+}
+
+#logo {
+  flex-basis: 35%;
+}
+
+#headings {
+  flex-basis: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#mobile-1 {
+  border: 5px solid;
+  margin-bottom: 20px;
+}
+
+#mobile-1 img {
+  max-width: 100%;
+}
+
+#mobile-2 {
+  border: 5px solid;
+  margin-bottom: 15px;
+}
+
+#mobile-2 h1{
+  font-weight: 800;
+  font-size: 2.5rem;
+  
+}
+
+#mobile-3 {
+  border: 5px solid;
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: #f15e50;
+  border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 15px;
+    letter-spacing: 5px;
+
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+#mobile-4 {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#mobile-4 h2 {
+  color: #e9ab53;
+  margin-bottom: 20px;
+}
+
+#mobile-4 h4 {
+  margin-bottom: 20px;
+}
+
+#mobile-4 p {
+  color: #c5c6ce;
+  margin-bottom: 20px;
+}
+
+.line {
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+
+#mobile-5, #mobile-6, #mobile-7 {
+  border: 5px solid;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#mobile-5 img, #mobile-6 img, #mobile-7 img {
+  max-height: 100px;
+}
+
+#m5-text, #m6-text, #m7-text {
+  margin-left: 20px;
+}
+
+#mobile-5 h2, #mobile-6 h2, #mobile-7 h2 {
+  color: #c5c6ce;
+  margin-bottom: 10px;
+}
+
+#mobile-5 h4, #mobile-6 h4, #mobile-7 h4 {
+  margin-bottom: 10px;
+}
+
+
+
+
+@media (min-width: 570px) {
+  #complete-page-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  #complete-page-container p {
+    font-size: 15px;
+}
+
+  #body {
+    display: flex;
+  }
+
+  #body-inner-bottom {
+    display: flex;
+  }
+
+  #footer {
+    display: flex;
+  }
