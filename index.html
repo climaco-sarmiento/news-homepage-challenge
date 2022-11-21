@@ -12,50 +12,92 @@
 
 </head>
 <body>
-  <div id="complete-page-container">
-    <div id="header">
-      <div id="logo">
+  <div class="complete-page-container">
+    <div class="header">
+      <div class="logo">
         <img src="./images/logo.svg" alt="logo">
       </div>
-      <div id="headings">
+      <div class="headings">
         <div class="headings-text" id="head1">
-          <span>
+          <p>
             Home
-          </span>
+          </p>
         </div>
         <div class="headings-text" id="head2">
-          <span>
+          <p>
             New
-          </span>
+          </p>
         </div>
         <div class="headings-text" id="head3">
-          <span>
+          <p>
             Popular
-          </span>
+          </p>
         </div>
         <div class="headings-text" id="head4">
-          <span>
+          <p>
             Trending
-          </span>
+          </p>
         </div>
         <div class="headings-text" id="head5">
-          <span>
+          <p>
             Categories
-          </span>
+          </p>
+        </div>
+        <!--
+              COLLAPSING MENU START  ////////////////////////
+                -->
+        
+        
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+        
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">New</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
+            <a href="#">Categories</a>
+          </div>
+        
         </div>
         
-        
-        
-        
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span class="nav-button" onclick="openNav()">
+          <img src="/images/icon-menu.svg" alt="menu icon">
+        </span>
 
+
+
+
+
+<!--
+       COLLAPSING MENU END ////////////////////////
+        -->
 
       </div>
 
     </div>
-    <div id="body">
-      <div id="body-inner-left">
-    <div id="mobile-1">
-      
+    
+    
+    
+    
+    
+    
+    <div class="gid-3-by-3">
+    <!--
+        ////////////////////////
+        -->
+
+
+
+  <!--<div id="body-inner-left">-->
+
+    <div class="mobile-1">
+
       <picture>
         <source media="(min-width:465px)" srcset="./images/image-web-3-desktop.jpg">
         <img src="./images/image-web-3-mobile.jpg" alt="web 3 image">
@@ -63,106 +105,120 @@
 
 
     </div>
-    <div id="body-inner-bottom">
-    <div class="cols" id="mobile-2">
-      <h1> The Bright Future of Web 3.0? </h1>
-    </div>
-    <div class="cols" id="mobile-3">
-      <div id="mob-3-text">
-        <p>
-          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
-          people.
-          But is it really fulfilling its promise?
-        </p>
+    
+
+      <div class="mobile-2">
+        <h1> The Bright Future of Web 3.0? </h1>
       </div>
-      <div id="mob-3-button">
-      <button class="button">
-        READ MORE
-      </button>
+      <div class="mobile-3">
+        <div id="mob-3-text">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+            of the
+            people.
+            But is it really fulfilling its promise?
+          </p>
+        </div>
+        <div id="mob-3-button">
+          <button class="button">
+            READ MORE
+          </button>
+        </div>
       </div>
+    <!--</div>-->
+  
+  <div class="mobile-4">
+    <h2>
+      New
+    </h2>
+    <p>
+    <h4>
+      Hydrogen VS Electric Cars
+    </h4>
+
+    <p> Will hydrogen-fueled cars ever catch up to EVs? </p>
+    <hr class="line">
+
+    <h4>
+      The Downsides of AI Artistry
+    </h4>
+    <p> What are the possible adverse effects of on-demand AI image generation? </p>
+    <hr class="line">
+
+    <h4>
+      Is VC Funding Drying Up?
+    </h4>
+    <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.
+    </p>
+  </div>
+
+
+
+  <div class="foot-elem" id="mobile-5">
+    <div id="m5-photo">
+      <img src="./images/image-retro-pcs.jpg" alt="Retro PCs Image">
     </div>
-    </div>
-    </div>
-    <div id="mobile-4">
+    <div id="m5-text">
       <h2>
-        New
+        01
       </h2>
-      <p>
-        <h4>
-          Hydrogen VS Electric Cars
-          </h4>
-        
-        <p>  Will hydrogen-fueled cars ever catch up to EVs? </p>
-        <hr class="line">
-        
-        <h4>
-        The Downsides of AI Artistry
-        </h4>
-        <p> What are the possible adverse effects of on-demand AI image generation? </p>
-        <hr class="line">
-        
-        <h4>
-        Is VC Funding Drying Up?
-        </h4>
-        <p> Private funding by VC firms is down 50% YOY. We take a look at what that means. </p>
-      </p>
-    </div>
-    </div>
-    <div id="footer">
-    <div class="foot-elem" id="mobile-5">
-      <div id="m5-photo">
-        <img src="./images/image-retro-pcs.jpg" alt="Retro PCs Image">
-      </div>
-      <div id="m5-text">
-        <h2>
-          01
-        </h2>
-        <h4>
-          Reviving Retro PCs
-        </h4>
+      <h4>
+        Reviving Retro PCs
+      </h4>
       <p>
         What happens when old PCs are given modern upgrades?
       </p>
-      </div>
+    </div>
+  </div>
+
+
+
+  <div class="foot-elem" id="mobile-6">
+    <div id="m6-photo">
+      <img src="./images/image-top-laptops.jpg" alt="Retro PCs Image">
+    </div>
+    <div id="m6-text">
+      <h2>
+        02
+      </h2>
+      <h4>
+        Top 10 Laptops of 2022
+      </h4>
+      <p>
+        Our best picks for various needs and budgets.
+      </p>
+    </div>
+  </div>
+
+
+
+  <div class="foot-elem" id="mobile-7">
+    <div id="m7-photo">
+      <img src="./images/image-gaming-growth.jpg" alt="Retro PCs Image">
+    </div>
+    <div id="m7-text">
+      <h2>
+        03
+      </h2>
+      <h4>
+        The Growth of Gaming
+      </h4>
+      <p>
+        How the pandemic has sparked fresh opportunities.
+      </p>
+    </div>
+  
+
+
+      <!--
+      ////////////////////////
+      -->
     </div>
 
 
 
-      <div class="foot-elem" id="mobile-6">
-        <div id="m6-photo">
-          <img src="./images/image-top-laptops.jpg" alt="Retro PCs Image">
-        </div>
-        <div id="m6-text">
-          <h2>
-            02
-          </h2>
-          <h4>
-            Top 10 Laptops of 2022
-          </h4>
-          <p>
-            Our best picks for various needs and budgets.
-          </p>
-        </div>
-      </div>
 
 
-
-      <div class="foot-elem" id="mobile-7">
-        <div id="m7-photo">
-          <img src="./images/image-gaming-growth.jpg" alt="Retro PCs Image">
-        </div>
-        <div id="m7-text">
-          <h2>
-            03
-          </h2>
-          <h4>
-            The Growth of Gaming
-          </h4>
-          <p>
-            How the pandemic has sparked fresh opportunities.
-          </p>
-        </div>
-      </div>
 
 
 
